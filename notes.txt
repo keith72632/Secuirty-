@@ -1,0 +1,3 @@
+Cross Compilation:
+	-Format prgrams for windows 32 bit because it will run on 32 and 64 bit
+	-$i686-w64-mingw32-gcc -o backdoor backdoor.c -lwsock32 -lwininet
